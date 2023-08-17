@@ -78,4 +78,7 @@ console.log("O novo valor de b é", b) // O novo valor de b é 10
 
 let numero1 = prompt("Digite um número: ");
 let numero2 = prompt("Digite outro número: ");
- 
+let soma = Number(numero1) + Number(numero2);
+let mult = numero1 * numero2;
+alert(`A soma de ${numero1} e ${numero2} é igual a ${soma}`);
+alert(`A multiplicação de ${numero1} e ${numero2} é igual a ${mult}`);
